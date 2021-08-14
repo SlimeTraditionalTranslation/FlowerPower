@@ -5,7 +5,7 @@ name: FlowerPower
 author: NCBPFluffyBear
 
 ## CHANGE this to a meaninful but short description of your plugin.
-description: A Slimefun4-Addon that adds more magical options
+description: 黏液科技附加 花魔法 繁體翻譯版.
 
 ## CHANGE this to the path of the class that extends JavaPlugin.
 main: io.ncbpfluffybear.flowerpower.FlowerPowerPlugin

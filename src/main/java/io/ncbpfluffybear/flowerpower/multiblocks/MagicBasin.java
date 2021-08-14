@@ -36,7 +36,7 @@ public class MagicBasin extends MultiBlockMachine {
 
     static {
         BASIN_RECIPE = new RecipeType(new NamespacedKey(FlowerPowerPlugin.getInstance(),
-                "magic_basin"), FlowerPowerItems.MAGIC_BASIN,"&7Craft it with a Magic Basin!"
+                "magic_basin"), FlowerPowerItems.MAGIC_BASIN,"&7用魔法盆栽製作!"
         );
     }
 }

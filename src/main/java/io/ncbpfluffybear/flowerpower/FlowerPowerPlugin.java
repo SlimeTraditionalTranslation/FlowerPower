@@ -2,13 +2,13 @@ package io.ncbpfluffybear.flowerpower;
 
 import io.ncbpfluffybear.flowerpower.setup.FlowerPowerItemSetup;
 import io.ncbpfluffybear.flowerpower.setup.ResearchSetup;
-import me.mrCookieSlime.Slimefun.cscorelib2.updater.GitHubBuildsUpdater;
-import org.bstats.bukkit.Metrics;
+//import me.mrCookieSlime.Slimefun.cscorelib2.updater.GitHubBuildsUpdater;
+//import org.bstats.bukkit.Metrics;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
-import me.mrCookieSlime.Slimefun.cscorelib2.config.Config;
+//import me.mrCookieSlime.Slimefun.cscorelib2.config.Config;
 import utils.Constants;
 import listeners.Events;
 import utils.GlowEnchant;
@@ -32,14 +32,14 @@ public class FlowerPowerPlugin extends JavaPlugin implements SlimefunAddon {
         instance = this;
 
         // bStats Metrics
-        final Metrics metrics = new Metrics(this, 12349);
+        //final Metrics metrics = new Metrics(this, 12349);
 
         // Read something from your config.yml
-        Config cfg = new Config(this);
+        //Config cfg = new Config(this);
 
-        if (cfg.getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
+        /*if (cfg.getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
             new GitHubBuildsUpdater(this, getFile(), "NCBPFluffyBear/FlowerPower/master/").start();
-        }
+        }*/
 
         try {
             if (!Enchantment.isAcceptingRegistrations()) {
@@ -82,7 +82,7 @@ public class FlowerPowerPlugin extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public String getBugTrackerURL() {
-        return "https://github.com/NCBPFluffyBear/FlowerPower/issues";
+        return "https://github.com/SlimeTraditionalTranslation/FlowerPower/issues";
     }
 
     @Nonnull

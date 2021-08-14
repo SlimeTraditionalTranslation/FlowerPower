@@ -38,7 +38,7 @@ public class FlowerPowerItemSetup {
 
     // Placeholder item for magic basin item frames
     private static final CustomItem basinFrame = new CustomItem(Material.ITEM_FRAME, null,
-            "&7Place on the side of the Experience Cauldron");
+            "&7放置在經驗鍋釜的一側");
     private static final List<Pair<SlimefunItemStack, Material>> allFlowers = new ArrayList<>(Arrays.asList(
             new Pair<>(FlowerPowerItems.GLISTENING_POPPY, Material.POPPY),
             new Pair<>(FlowerPowerItems.GLISTENING_DANDELION, Material.DANDELION),
@@ -79,7 +79,7 @@ public class FlowerPowerItemSetup {
 
         new MagicCream(FlowerPowerItems.FLOWERPOWER_CATEGORY, FlowerPowerItems.MAGIC_CREAM, RecipeType.MOB_DROP, new ItemStack[]{
                 null, null, null,
-                null, new CustomItem(new ItemStack(Material.SLIME_SPAWN_EGG), "&aSlime", "&7Kill a Slime"), null,
+                null, new CustomItem(new ItemStack(Material.SLIME_SPAWN_EGG), "&aSlime", "&7殺死史萊姆"), null,
                 null, null, null
         }).register(plugin);
 

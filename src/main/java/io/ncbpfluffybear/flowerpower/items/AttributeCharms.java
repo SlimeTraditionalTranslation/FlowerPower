@@ -72,7 +72,7 @@ public class AttributeCharms extends SimpleSlimefunItem<ItemUseHandler> implemen
 
             // Update lore
             List<String> lore = charmMeta.getLore();
-            lore.set(LORE_INDEX, Utils.color("&aThis charm has been inspected"));
+            lore.set(LORE_INDEX, Utils.color("&a此魔法符已被檢查"));
             charmMeta.setLore(lore);
 
             p.playSound(p.getLocation(), Sound.BLOCK_BELL_RESONATE, 1, 1);

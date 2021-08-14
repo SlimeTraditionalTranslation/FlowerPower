@@ -21,7 +21,7 @@ public class Utils {
     }
 
     public static void send(CommandSender s, String msg) {
-        s.sendMessage(color("&5&l[Magic] " + msg));
+        s.sendMessage(color("&5&l[魔法] " + msg));
     }
 
     public static void registerEvents(Listener listener) {

@@ -1,24 +1,27 @@
-# Flower Power
-Welcome to Flower Power, a Slimefun4 addon centered around flowers!
+# 花魔法
+歡迎來到花魔法, 以花為中心的 Slimefun4 附加插件!
 
-## Contents:
+> 此為**非官方**版本, 請勿在該作者問題追蹤內回報! <br>
+> [原作者連結](https://github.com/NCBPFluffyBear/FlowerPower) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
 
-**Magic Cream:** The start of your Flower Power experience. Dropped by slimes, and required for the most basic recipes.
+## 內容:
 
-**Magic Basin:** The Multiblock machine used in this addon, used to craft all of the following items.
+**魔法膏:** 你的花魔法體驗的開始. 從史萊姆上掉落, 是最基本配方所需.
 
-**Experience Cauldron:** A component of the Magic Basin, or can be used as a standalone experience storage option.
+**魔法盆栽:** 此附加中使用的多重方塊機器, 用於製作以下所有物品.
 
-**Magic Wand:** A magical tool used to start Magic Basin reactions.
+**經驗鍋釜:** 魔法盆栽的一個組件, 也可以用作於獨立的經驗值儲存選項.
 
-**Attribute Charms:** Offhand-held items that provide you with various attribute buffs such as speed, strength, and health boost with randomized intensities.
+**魔法杖:** 魔法工具, 用於啟用魔法盆栽的合成.
 
-**Experience Tome:** A magical item that allows players to store massive amounts of experience.
+**屬性魔法符:** 為你提供各種屬性增益的副手物品, 例如 速度, 力量與血量的隨機強度加成.
 
-**Overgrowth Charms:** A magical item that creates duplicates of the flower that it is used on.
+**經驗之書:** 可以讓玩家儲存大量經驗值的魔法物品.
 
-**Infinity Apple:** A magical item that can be consumed infinitely at the cost of a small amount of experience.
+**盛開種子:** 一種魔法物品, 可用於複製它所使用在上的花朵.
 
-**Infinity Bandage:** A magical item that can be used to heal yourself infinitely at the cost of a small amount of experience.
+**無限蘋果:** 可以以少量經驗值為代價無限消耗的魔法物品.
 
-**Recall Charm:** A magical item that you can bind to a location and use later to teleport back to that location at the cost of a large amount of experience.
+**無限繃帶:** 一種魔法物品, 可以以少量經驗值為代價無限治療自己.
+
+**回傳魔法符:** 一種魔法物品, 可以綁定到一個位置, 稍後使用它以大量的經驗值為代價傳送回該位置.
