@@ -2,7 +2,12 @@
 歡迎來到花魔法, 以花為中心的 Slimefun4 附加插件!
 
 > 此為**非官方**版本, 請勿在該作者問題追蹤內回報! <br>
-> [原作者連結](https://github.com/NCBPFluffyBear/FlowerPower) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
+> [原作連結](https://github.com/NCBPFluffyBear/FlowerPower) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
+
+| 非官方繁體中文版 | 官方英文版 |
+| -------- | -------- |
+| 點下方圖片下載 | 點下方圖片下載 |
+| [![Build Status](https://xmikux.github.io/builds/SlimeTraditionalTranslation/FlowerPower/master/badge.svg)](https://xmikux.github.io/builds/SlimeTraditionalTranslation/FlowerPower/master) | [![Build Status](https://thebusybiscuit.github.io/builds/NCBPFluffyBear/FlowerPower/master/badge.svg)](https://thebusybiscuit.github.io/builds/NCBPFluffyBear/FlowerPower/master) | 
 
 ## 內容:
 
