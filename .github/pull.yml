@@ -4,4 +4,5 @@ rules:
     upstream: NCBPFluffyBear:master
     mergeMethod: merge
     conflictReviewers:
-      - slimetraditionaltranslation/translate-maintainer
+      - weiii-joe
+      - xMikux
