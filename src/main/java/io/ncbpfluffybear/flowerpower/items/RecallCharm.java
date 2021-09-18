@@ -73,7 +73,7 @@ public class RecallCharm extends SimpleSlimefunItem<ItemUseHandler> {
             // Teleport player
 
             // Check if player has sufficient exp
-            if (p.getTotalExperience() < TELEPORT_COST) {
+            if (Utils.getTotalExperience(p) < TELEPORT_COST) {
                 Utils.send(p, "&c你沒有足夠的經驗來傳送! 你需要經驗值: " + TELEPORT_COST);
                 return;
             }
