@@ -1,7 +1,6 @@
 package io.ncbpfluffybear.flowerpower.items;
 
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemSetting;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
@@ -38,10 +37,16 @@ public class ExperienceTome extends SlimefunItem implements Listener {
 
     @EventHandler
     private void onTomeUse(PlayerInteractEvent e) {
+        Player p = e.getPlayer();
+
         ItemStack tome = e.getItem();
 
         // Check if item is a tome
         if (!isItem(tome)) {
+            return;
+        }
+
+        if (!this.canUse(p, true)) {
             return;
         }
 
@@ -52,7 +57,6 @@ public class ExperienceTome extends SlimefunItem implements Listener {
         }
 
         ItemMeta tomeMeta = tome.getItemMeta();
-        Player p = e.getPlayer();
         int tomeExp = PersistentDataAPI.getInt(tomeMeta, expAmount, 0);
 
         // Exp extraction
