@@ -22,7 +22,7 @@ public class Utils {
     }
 
     public static void send(CommandSender s, String msg) {
-        s.sendMessage(color("&5&l[魔法] " + msg));
+        s.sendMessage(color("&5&l[&d花魔法&5&l] " + msg));
     }
 
     public static void registerEvents(Listener listener) {
