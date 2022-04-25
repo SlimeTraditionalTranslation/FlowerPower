@@ -183,6 +183,15 @@ public class FlowerPowerItems {
             "",
             ItemTags.MAGICAL_ITEM
     );
+    public static final SlimefunItemStack KNOCKBACK_RESISTANCE_CHARM = new SlimefunItemStack("KNOCKBACK_RESISTANCE_CHARM",
+            Material.SUGAR,
+            "&7抗擊退魔法符",
+            "",
+            "&e右鍵 &c檢查這個魔法符",
+            "&7&o把此魔法符放在副手來減少擊退",
+            "",
+            ItemTags.MAGICAL_ITEM
+    );
     public static final SlimefunItemStack EXPERIENCE_TOME = new SlimefunItemStack("EXPERIENCE_TOME",
             Material.ENCHANTED_BOOK,
             "&e經驗之書 &a(0 / 1000000)",

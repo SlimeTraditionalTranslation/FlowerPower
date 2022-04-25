@@ -27,7 +27,7 @@ public final class ResearchSetup {
         register("experience_storage", 2714, "經驗儲存", 50, FlowerPowerItems.EXPERIENCE_TOME);
         register("attribute_charms", 2715, "屬性魔法符", 50, FlowerPowerItems.MOVEMENT_SPEED_CHARM,
                 FlowerPowerItems.ATTACK_SPEED_CHARM, FlowerPowerItems.FLY_SPEED_CHARM, FlowerPowerItems.DAMAGE_CHARM,
-                FlowerPowerItems.HEALTH_CHARM
+                FlowerPowerItems.HEALTH_CHARM, FlowerPowerItems.KNOCKBACK_RESISTANCE_CHARM
         );
         register("recall_teleportation", 2716, "回傳傳送", 30, FlowerPowerItems.RECALL_CHARM);
         register("infinity_magic", 2717, "無限魔法", 30, FlowerPowerItems.INFINITY_APPLE, FlowerPowerItems.INFINITY_BANDAGE);
