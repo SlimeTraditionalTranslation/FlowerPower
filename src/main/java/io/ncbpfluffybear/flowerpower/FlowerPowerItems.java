@@ -132,7 +132,7 @@ public class FlowerPowerItems {
     );
     public static final SlimefunItemStack PURPLE_CRYSTAL = new SlimefunItemStack("PURPLE_CRYSTAL",
             Material.PURPLE_GLAZED_TERRACOTTA,
-            "&5紫色水晶",
+            "&5紫色結晶",
             "",
             "&7&o看起來非常閃亮...",
             "",
